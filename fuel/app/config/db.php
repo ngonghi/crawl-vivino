@@ -6,5 +6,11 @@
  */
 
 return array(
-
+    'default' => array(
+        'connection'  => array(
+            'dsn'        => 'mysql:host=localhost;dbname=vivino',
+            'username'   => 'homestead',
+            'password'   => 'secret',
+        ),
+    ),
 );
